@@ -1,0 +1,4 @@
+.dockerignore
+Dockerfile
+tsconfig.json
+dist
