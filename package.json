@@ -1,0 +1,16 @@
+{
+  "name": "shared",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.7.15",
+    "typescript": "^4.8.3"
+  },
+  "scripts": {
+    "build": "npx tsc && npm run buildpackage",
+    "buildpackage": "cd dist && npm link",
+    "prepublish": "npm run build"
+  }
+}
