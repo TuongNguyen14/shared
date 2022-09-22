@@ -12,8 +12,9 @@
         "strict": true,
         "resolveJsonModule": true
     },
-    "include": ["./package.json","./errors","./libraries","./types"],
     "exclude": [
-        "**/__tests__/*"
+        "**/__tests__/*",
+    "node_modules",
+    "dist"
     ]
 }
